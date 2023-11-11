@@ -1,0 +1,13 @@
+
+import EditStudentForm from "@/components/Student/EditStudent/EditStudentForm";
+import EditTeacherForm from "@/components/Teacher/EditTeacher/EditTeacherForm";
+import DashbordLayouts from "@/layouts/DashbordLayouts";
+import React from "react";
+
+export default function index() {
+  return (
+    <DashbordLayouts>
+      <EditStudentForm/>
+    </DashbordLayouts>
+  );
+}

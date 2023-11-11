@@ -1,0 +1,48 @@
+
+.title{
+   font-size: 32px;
+   font-weight: 700;
+   color: rgb(30, 173, 245);
+}
+
+
+.desc{
+    font-size: 16px;
+    font-weight: 500;
+}
+.existing{
+    margin-bottom: 20px;
+}
+.existing .enumeration{
+    margin-bottom: 0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.existing .enumeration svg{
+
+color: rgb(30, 173, 245)
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+    .title{
+        font-size: 20px;
+     }
+     
+     
+     .desc{
+         font-size: 12px;
+     }
+     .existing .enumeration{
+         font-size: 12px;
+     }
+     
+}

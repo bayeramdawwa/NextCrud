@@ -1,0 +1,120 @@
+
+.instructor{
+    padding: 60px 10%;
+    background-color: #fff;
+    display: flex;
+    overflow: hidden;
+    
+  
+}
+.instructor .sectionIMG{
+    width: 50%;
+    height: 450px;
+    position: relative;
+
+  
+}
+.instructor .sectionIMG::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(223, 221, 221);
+    top: -5%;
+    left: 7%;
+    z-index: -1;
+
+  
+}
+.instructor .sectionIMG img{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.instructor .buttons button:nth-child(2){
+   display: none;
+}
+
+.team{
+    padding: 60px 10%; 
+    overflow-X: hidden;
+}
+.team .teamcard-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.team .viewMC{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.education{
+    padding: 60px 10%; 
+    overflow-X: hidden;
+  
+}
+
+.education .educationCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.ChooseUs{
+    padding: 60px 10%;    
+    overflow: hidden;
+}
+
+@media screen and (max-width:1275px) {
+    .education .educationCard-container{
+ 
+        gap: 20px;
+  
+    }
+}
+@media screen and (max-width:800px) {
+   
+    
+    .instructor{
+        padding: 30px 5%;
+        gap: 20px ;
+        flex-direction:  column-reverse;
+        
+
+    }
+
+    .instructor .sectionIMG{
+        width: 100%;
+      
+    }
+    .instructor .sectionIMG img{
+     transform: translateY(0px);
+     width: 100%;
+     height: 100%;
+    }
+    .team {
+        padding: 30px 5%
+   
+      }
+    .team .teamcard-container{
+   
+        justify-content: center;
+   
+      }
+    .education{
+        padding: 30px 5%; 
+    }
+   
+    .ChooseUs{
+        padding: 30px 5%;    
+       
+    }
+}

@@ -1,0 +1,103 @@
+.ChooseUs{
+    display: flex;
+    gap: 20px;
+}
+
+.ChooseUs .img{
+    width: 400px;
+    height: 50%;
+    
+}
+
+.ChooseUs .img img{
+   width: 100%;
+   height: 100%;
+}
+
+.ChooseUs .CONTENT {
+   width: 60%;
+}
+
+
+.ChooseUs .CONTENT .sectitlle {
+    text-align: start;
+    
+}
+
+.ChooseUs .CONTENT .secdesc {
+    text-align: start;
+
+    padding: 0;
+    margin: 10px 0;
+}
+.ChooseUs .CONTENT .good {
+    text-align: start;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 5px;
+    background-color:rgba(14, 121, 175 ) ;
+    margin: 10px 0;
+}
+.ChooseUs .CONTENT .imgdesc {
+display: flex;
+width: 100%;
+gap: 10px;
+
+}
+.ChooseUs .CONTENT .imgdesc img {
+
+width: 100px;
+height: 100px;
+
+}
+.ChooseUs .CONTENT  .desc {
+padding-right: 20%;
+font-size: 14px;
+
+}
+.ChooseUs .CONTENT  .advantages {
+margin: 20px 0;
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+
+
+@media screen and (max-width:800px) {
+    .ChooseUs{
+       flex-wrap: wrap;
+    }
+    .ChooseUs .img{
+        width: 100%;
+        height: 50%;
+        
+    }
+ 
+    
+    .ChooseUs .CONTENT {
+       width: 100%;
+    }
+    
+    
+  
+    .ChooseUs .CONTENT .good {
+      
+        font-size: 10px;
+
+    }
+  
+    .ChooseUs .CONTENT  .desc {
+    
+    font-size: 12px;
+    
+    }
+    .ChooseUs .CONTENT  .advantages {
+    margin: 10px 0;
+    font-size: 14px;
+    
+    }
+    
+    
+}
+

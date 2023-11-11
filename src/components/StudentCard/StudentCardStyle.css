@@ -1,0 +1,74 @@
+.StudentCard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.StudentCard:hover{
+    box-shadow: rgba(27, 153, 192, 0.12) 0px 54px 55px, rgba(27, 153, 192, 0.12) 0px -12px 30px, rgba(27, 153, 192, 0.12) 0px 4px 6px, rgba(27, 153, 192, 0.12) 0px 12px 13px, rgba(27, 153, 192, 0.12) 0px -3px 5px;
+}
+.StudentCard .cardIMG{
+    width: 150px;
+    height: 170px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+        width: 100%;
+        align-items: center;
+
+}
+.StudentCard .cardIMG img{
+    width: 100%;
+   height: 100%;
+
+
+}
+
+.StudentCard .detail{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: rgb(73, 75, 75);
+    font-weight: 700;
+    font-size: 18px;
+}
+.StudentCard .detail span{
+   
+    color: rgb(14, 121, 175);
+  
+}
+
+.StudentCard .social{
+    margin-top: 20px;
+    display: flex;
+justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+.StudentCard .social a{
+  
+   cursor: pointer;
+
+}
+.StudentCard .showMore{
+    margin-top: 20px;
+   cursor: pointer;
+   text-align: center;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .StudentCard .detail{
+ 
+    font-size: 16px;
+}
+
+
+}

@@ -1,0 +1,89 @@
+.CourseCard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: #fff;
+
+}
+.CourseCard .cardIMG{
+    width: 100%;
+    height: 200px;
+
+
+}
+.CourseCard .cardIMG img{
+    width: 100%;
+   height: 100%;
+
+
+}
+.CourseCard .cardcontent{
+    padding: 15px 30px;
+
+
+}
+
+.CourseCard .cardContentHead{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.CourseCard .cardContentHead .lessonNum{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 12px;
+    color: rgb(30, 173, 245);
+}
+.CourseCard .cardContentHead .Rate{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 12px;
+    color: rgb(207, 169, 17);
+}
+
+.CourseCard .cardinfo{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(223, 221, 221);
+}
+.CourseCard .cardinfo .title{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.CourseCard .cardinfo .desc{
+    color: rgb(223, 221, 221);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.CourseCard .cardContentend{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.CourseCard .cardContentend .price{
+    font-size: 16;
+    font-weight: 600;
+}
+@media screen and (max-width:800px) {
+    
+    .CourseCard{
+        width: 45%;
+
+    
+    }
+}
+@media screen and (max-width:670px) {
+    
+    .CourseCard{
+        width: 100%;
+
+    
+    }
+}

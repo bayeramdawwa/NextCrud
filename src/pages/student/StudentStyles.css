@@ -1,0 +1,19 @@
+.heroLink{
+    display: none;
+}
+.team{
+    padding: 60px 10%; 
+    overflow-X: hidden;
+}
+.team .teamcard-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.team .viewMC{
+    text-align: center;
+    margin-top: 40px;
+}

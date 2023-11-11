@@ -1,0 +1,118 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "img": "https://blog.hubspot.com/hs-fs/hubfs/free-online-courses_8.webp?width=595&height=400&name=free-online-courses_8.webp",
+      "numL": "43",
+      "star": 4.5,
+      "title": "course1",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": 96
+    },
+    {
+      "id": "2",
+      "img": "blob:http://localhost:3005/a989b6b2-e714-4298-ae79-ac7cb34779a3",
+      "numL": "20",
+      "star": 4.2,
+      "title": "course2",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur.",
+      "price": 60
+    },
+    {
+      "id": "3",
+      "img": "https://thumbs.dreamstime.com/b/portrait-confident-african-american-male-teacher-class-71530272.jpg",
+      "numL": "50",
+      "star": 4.9,
+      "title": "course3",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": 120,
+      "name": "ahmad ahmad",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur.",
+      "jop": "Photography teacher",
+      "facebook": "#",
+      "insta": "#",
+      "x": "#"
+    },
+    {
+      "title": "dfdsf",
+      "desc": "rsdgfds",
+      "img": "blob:http://localhost:3005/abc1fefa-ce44-4ce7-a68a-1b5e42d044ed",
+      "numL": "6",
+      "star": "5.5",
+      "price": "77",
+      "id": "NojSm9Z"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "3",
+      "img": "https://thumbs.dreamstime.com/b/portrait-confident-african-american-male-teacher-class-71530272.jpg",
+      "name": "ahmad ahmad",
+      "jop": "Photography teacher",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur.",
+      "facebook": "#",
+      "insta": "#",
+      "x": "#"
+    },
+    {
+      "id": "4",
+      "img": "https://static1.bigstockphoto.com/5/3/2/large1500/235542859.jpg",
+      "name": "mohamed mohamed",
+      "jop": "Science teacher",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur.",
+      "facebook": "#hy",
+      "insta": "#",
+      "x": "#"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "img": "https://img.freepik.com/free-photo/smiling-happy-indian-student-with-backpack-pointing-his-finger-wall_496169-1532.jpg",
+      "name": "ali ali",
+      "age": "24",
+      "address": "syria",
+      "phone": "123456789",
+      "email": "info@info",
+      "facebook": "#",
+      "insta": "#",
+      "x": "#"
+    },
+    {
+      "id": "3",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu7W-hdLNQSUvOVLKr27JxSNHupuuhGGQihGii1Y02hyVMtwryVUFV11tcxzEb0OJ1er0&usqp=CAU",
+      "name": "ahmad ahmad",
+      "age": "13",
+      "address": "syria",
+      "phone": "12333349",
+      "email": "info00@info00",
+      "facebook": "#",
+      "insta": "#",
+      "x": "#"
+    },
+    {
+      "id": "4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinIXjrF4A5ujyHxLAB8SDARX5OEglrmCCPg&usqp=CAU",
+      "name": "mohamed mohamed",
+      "age": "16",
+      "address": "syria",
+      "phone": "123456777789",
+      "email": "infro@infro",
+      "facebook": "#",
+      "insta": "#",
+      "x": "#"
+    },
+    {
+      "id": "5",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-nKDRogxI404qhCah4wxxDIUsocZWeWk1w&usqp=CAU",
+      "name": "ali mohamed",
+      "age": "15",
+      "address": "UAE",
+      "phone": "1234567833339",
+      "email": "info12@info12",
+      "facebook": "#",
+      "insta": "#",
+      "x": "#"
+    }
+  ]
+}

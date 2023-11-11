@@ -1,0 +1,67 @@
+
+
+
+.education{
+    padding: 60px 10%; 
+    overflow-X: hidden;
+  
+}
+
+.education .educationCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.courses{
+    padding: 60px 10%;
+   background-color:rgb(223, 221, 221)  ; 
+   overflow-X: hidden;
+  
+}
+.courses .CourseCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.courses .viewMC{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.heroLink{
+    display: none;
+}
+
+@media screen and (max-width:1275px) {
+    .education .educationCard-container{
+ 
+        gap: 20px;
+  
+    }
+}
+@media screen and (max-width:800px) {
+ 
+ 
+
+    .education{
+        padding: 30px 5%; 
+    }
+    .courses{
+        padding: 30px 5%; 
+    }
+    .courses .CourseCard-container{
+        
+        justify-content: center;
+
+    }
+
+
+
+  
+}

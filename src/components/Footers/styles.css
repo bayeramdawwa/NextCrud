@@ -1,0 +1,179 @@
+.footer {
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 10%;
+}
+.Fmenu1{
+    width: 300px;
+  
+}
+.Fmenu2{
+    width: 150px;
+  
+}
+.Fmenu3{
+    width: 450px;
+  
+}
+.Fmenu4{
+    width: 250px;
+  
+}
+.menuh3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Fmenu1 .Fdesc{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Fsoical{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    gap: 10px;
+}
+
+.FS{
+    color: #fff;
+    font-size: 30px;
+}
+
+.Flink{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;  
+}
+
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.imgs img{
+    
+    width: 25%;
+    height: 50px;
+}
+
+
+.Finfo{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+.adress{
+    font-weight: 700;
+}
+
+
+.copy{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+}
+@media screen and (max-width:900px) {
+    .footer {
+    flex-wrap: wrap;
+        padding: 30px 5%;
+    }
+    .Fmenu1{
+        width:40%;
+      
+    }
+    .Fmenu2{
+        width:40%;
+      
+    }
+    .Fmenu3{
+        width: 40%;
+      
+    }
+    .Fmenu4{
+        width: 40%;
+      
+    }
+
+    
+}
+@media screen and (max-width:550px) {
+    .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    }
+    .Fmenu1{
+        width:100%;
+      
+    }
+    .Fmenu2{
+        width:100%;
+
+      
+    }
+    .Fmenu3{
+        width: 100%;
+
+        
+      
+    }
+    .Fmenu4{
+        width: 100%;
+      
+    }
+    .menuh3{
+        font-size: 18px;
+    
+    }
+    .Fsoical{
+
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Fmenu1 .Fdesc{
+        font-size: 14px;
+
+    }
+    
+
+    
+    .FS{
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .Flink{
+        font-size: 14px;
+
+    }
+    
+
+    .imgs{
+        justify-content: center;
+    }
+    
+    .Finfo{
+
+        font-size: 14px;
+
+    }
+    .adress{
+        font-weight: 700;
+    }
+    
+}

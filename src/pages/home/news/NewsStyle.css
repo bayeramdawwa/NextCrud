@@ -1,0 +1,70 @@
+
+.news{
+    padding: 60px 10%;
+    width: 100%;
+    background-color: #fff;
+    overflow-X: hidden;
+  
+
+}
+.news .SchoolNewsCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.news .SchoolNewsCard{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.schoolNews .secdesc{
+    padding: 0 20%;
+}
+
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.btns .btn-news{
+    border: none;
+    border-radius: 100%;
+    color:rgba(14, 121, 175);
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+   background:none;
+    text-align: center;
+   transition: all 0.3s ease;
+}
+.btns .btn-news:hover{
+ 
+    color:#fff;
+
+   background:rgba(14, 121, 175);
+ 
+}
+.btns .btn-news:focus{
+ 
+    color:#fff;
+
+   background:rgba(14, 121, 175);
+ 
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .schoolNews{
+        padding: 30px 10%;
+    }
+
+}
